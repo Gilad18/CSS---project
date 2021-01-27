@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.homeHeader{
+    width: 100vw;
+    height: 700px;
+}
+
+.navbar{
+    width: 100%;
+    height: 7.5%;
+    background-color: #6196A6;
+    color: #D4DFDE ;
+    font-family: 'Coda Caption', sans-serif;
+}
+
+.logo{
+    display: inline;
+    float: left;   
+}
+.logo h2 {
+    padding: 7px;
+}
+.navigation{
+    display: inline;
+    float: right;
+    height: 100%;
+    text-align: center;
+}
+.navigation ul li {
+    display: inline;
+    float: left;
+    padding: 16px;
+   
+   }
+ .navigation ul li a{
+    padding: 20px ;
+    text-decoration: none;
+    color: #D4DFDE ;
+   }  
+   .navigation ul li:hover, .logo:hover{
+       background-color: #0C2E3B;
+   }
+   .showcase {
+       width: 100%;
+       height: 92%;
+       background-image: url("https://images.unsplash.com/photo-1602867612779-3aaf54b425c2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2102&q=80");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }  
+   
+   .showcaseContent {
+       width: 25%;
+       height: 25%;
+       position: absolute;
+       right: 100px;
+       top : 200px;
+       line-height: 1.5;
+       display: inline-block;
+       vertical-align: middle;
+       text-align: center;
+       margin:40px 10px auto;
+       font-family: 'Coda Caption', sans-serif;
+      }
+      .showcaseContent h1 {
+         font-size: 35px;
+          margin: 10px;
+          color: black;
+          text-shadow: white 1px 1px;
+
+      } 
+
+      .showcaseContent p {
+        margin: 10px;
+        font-size: larger;
+        text-shadow: white 1px 1px;
+    } 
+    .showcaseContent button{
+        margin: 10px;
+        width: 200px;
+        height: 60px;
+        background-color: #1D272B;
+        color: white;
+    }
+
+    .showcaseContent button:hover{
+        background-color:#6196A6;
+        color: white;
+    }
+
+
+   #homeInfo{
+       width: 100vw;
+       height: 450px;   
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: #1D272B; 
+   }
+
+   .infoImage1 , .homeHistory , .infoImage2 {
+       width: 30%;
+       height: 90%;
+       background-color: #1D272B;
+       display: inline-block;
+       padding: 20px;
+       margin: 10px auto;
+     }
+
+     .infoImage1 {
+        background-image: url("https://images.unsplash.com/photo-1552160757-52790c6f4faf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+     }
+     .homeHistory {
+         margin: auto;
+         text-align: center;
+         color: #D4DFDE;
+         font-family: 'Coda Caption', sans-serif;
+         font-family: 'Josefin Sans', sans-serif;
+         line-height: 27px;
+    }
+
+    .homeHistory h3 {
+        font-size: 25px;
+        margin: 30px;
+    }
+
+    .homeHistory p {
+        margin: 30px;
+    }
+
+    .homeHistory button {
+        width: 200px;
+        height: 40px;
+        margin: 20px;
+        background-color:#6196A6;
+        color: white;
+        border-radius: 30px;
+    }
+
+    .homeHistory button:hover{
+        background-color: #1D272B;
+        color: white;
+    }
+
+     .infoImage2 {
+        background-image: url("https://images.unsplash.com/photo-1604170095791-24084bd882ed?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2978&q=80");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+     }
+     .information {
+         width: 100vw;
+         height: 300px;
+         background-color: white;
+         color: #1D272B;
+     }
+
+     .box {
+         float: left;
+         width: 26%;
+         padding: 50px;
+         text-align: center;
+         font-family: 'Coda Caption', sans-serif;
+         font-family: 'Josefin Sans', sans-serif;
+     }
+
+     .box h3 {
+         margin: 20px;
+     }
+
+     .box p {
+        margin: 20px;
+    }
+    footer {
+        width: 100vw;
+        height: 60px;
+        background-color: #6196A6; 
+        text-align: center;
+        color: white;
+    }
+
+    .aboutHeader {
+        width: 100vw;
+        height: 700px;
+    }
+
+    .aboutinfo {
+        width: 100vw;
+        height: 500px;
+        background-color: white
+        
+    }
+
+    .aboutleft {
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        padding: 50px 20px;
+        line-height: 30px;
+    }
+
+    .aboutleft h1 {
+        margin: 50px;
+        font-family: 'Coda Caption', sans-serif;
+    }
+    .aboutright {
+        width: 45%;
+        height: 500px;
+        background-image: url('https://images.unsplash.com/photo-1597246217838-bfc44d6ac746?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;  
+        position: absolute;
+        right: 0px;
+        top: 52px;
+    }
+
+    .testimoni {
+        margin-top: -158px;
+        width: 100vw;
+        height: 780px;
+        background-color: #1D272B ;
+    }
+
+    .testbox {
+        width: 80%;
+        height: 20%;
+        margin: 10px auto;
+        padding: 40px;
+    }
+
+    .c1, .c2 , .c3 {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        display: inline;
+        float: left; 
+    
+    }
+
+    .c1text, .c2text , .c3text {
+        width: 900px;
+        height: 200px;
+        margin:  auto;
+        display: inline;
+        float: right;
+        text-align: center;
+        color: white;  
+        font-family: 'Coda Caption', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;         
+    }  
+
+    .c1text p , .c2text p , .c3text p{
+        padding: 40px;
+    }
+
+    .c1 {
+        background-image: url('https://images.unsplash.com/photo-1542909192-2f2241a99c9d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+        border-radius: 100px;  
+    }
+
+    .c2 {
+        background-image: url('https://images.unsplash.com/photo-1530577197743-7adf14294584?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1401&q=80');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+        border-radius: 100px;  
+    }
+    .c3 {
+        background-image: url('https://images.unsplash.com/photo-1609955329780-485d5008b3b9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+        border-radius: 100px; 
+    }
+    
+
+    .formContainer {
+        width: 100vw;
+        height: 97.2%;
+        background-color:  #1D272B;
+    }
+
+    .formImage {
+        width: 45%;
+        height: 95%;
+        display: inline;
+        float: left;
+        background-image: url('https://images.unsplash.com/photo-1603071559877-d4cab4d148e7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2286&q=80');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;   
+    }
+
+    .theform {
+        width: 50%;
+        height: 90%;
+        display: inline;
+        float: right;
+        margin-right: 40px;
+        margin-top: 20px;
+        background-color:  #1D272B;
+        text-align: center;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .theform h3{
+        font-family: 'Coda Caption', sans-serif;
+        font-size: 40px;
+    }
+
+    form input  , .theform h3 {
+        margin: 30px;
+        border-radius: 20px;
+    }
+
+    textarea {
+        margin: 35px;
+    }
+
+    input {
+        width: 300px;
+        height: 50px;
+    }
+
+    .cotactdetails {
+        width: 100vw;
+        height: 300px;
+        background-color:  #6196A6; 
+    }
+
+    
